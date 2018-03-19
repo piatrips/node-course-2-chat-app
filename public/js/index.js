@@ -20,3 +20,8 @@ socket.on('newMessage', function(message){
 console.log('New Message', message)
 
 });
+
+socket.on('newUserMessage', function(message){
+console.log('New uSER joined', message)
+
+});
